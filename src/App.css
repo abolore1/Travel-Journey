@@ -1,0 +1,146 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins',sans-serif;
+  /* height: 100vh; */
+}
+.App{
+  width: 570px;
+  height: 700px;
+  margin: 40px 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  /* padding: 0 5px; */
+  
+}
+
+.Navbar{
+ padding:2px;
+}
+.Navbar nav{
+  text-align: center;
+  background: #F55A5A;
+  color: #fff;
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 4px 4px 0 0;
+  
+}
+
+nav img{
+  margin:4px 6px 0 0;
+  width: 27px;
+  height: 27px;
+  
+}
+
+nav p{
+  font-size: 22px;
+}
+
+.inner{
+  display: flex;
+}
+.Journal-component{
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  left: 30px;
+  top:30px
+   
+  /* text-align: center; */ 
+  /* padding: 0 20px; */
+ 
+}
+ .img-sectionv,.content-section{
+   /* height: 47px; */
+   margin-bottom: 20px;
+  }
+  .img-section img{
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 1.5px;
+  }
+  
+  .content-section {
+    width: 100%;
+    display: flex;
+    /* background: green; */
+ /* justify-content: space-evenly; */
+     padding:  6px 3px;
+}
+
+.content-section h3 {
+  left: 140px;
+  font-weight: 400;
+  margin-right: 8px;
+  margin-left: -5px;
+  font-size: 10.24px;
+  
+}
+.content-section h3,.content-section a {
+  /* font-size: 4px; */
+  color: #2B283A;
+}
+.content-section a {
+  font-size: 10.24px;
+  width: 116px;
+  height: 13px;
+  color: #918E9B;
+  margin-left: 3px;
+  
+}
+.content-section img{
+  width: 7px;
+  height: 9.55px;
+  margin: 4px 10px;
+  /* margin-top: ; */
+}
+
+h2{
+  font-size:25px;
+  font-weight: bolder;
+  color: #2B283A;
+  position: absolute;
+  left: 140px;
+  top: 25px;
+  /* background: yellow; */
+}
+
+span,.description{
+  position: absolute;
+  left: 140px;
+  top: 58px;
+  color: #3a364b;
+  font-weight:bold;
+  margin: 10px 0;
+  /* background: green; */
+  font-size: 10.24px;
+}
+
+.endDate{
+  /* background: blue; */
+  left: 210px;
+}
+.description{
+  font-weight:100;
+  top: 73px;
+  width: 350px;
+  max-width: 100%;
+  /* padding-right: 80px; */
+  /* margin: 0; */
+}
